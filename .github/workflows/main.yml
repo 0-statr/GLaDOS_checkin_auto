@@ -28,5 +28,5 @@ jobs:
         env: 
           GLADOS_COOKIE: "${{ secrets.GLADOS_COOKIE }}"
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-      - uses: ddev/github-action-add-on-test
+      - uses: ddev/github-action-add-on-test@v2
 
